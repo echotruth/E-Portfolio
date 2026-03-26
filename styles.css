@@ -33,14 +33,26 @@ list-style-type:none;
     flex:1;
 }
 
+.container{
+    padding: 50px 0;
+
+}
 .row{
-    width: 100%
+    width: 100%;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .text--green{
     color: #1fd494;
+}
+
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+.section__title{
+    margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR */
@@ -162,7 +174,32 @@ font-awesome icons
     animation: float 3s ease-in-out infinite; /* Runs forever */
 }
 
+/*TECH-STAK*/
 
+.language__img{
+    width:100%;
+    max-width:100px;
+    height: auto;
+}
+
+.language {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.language__img--wrapper {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 /*
 @keyframes
